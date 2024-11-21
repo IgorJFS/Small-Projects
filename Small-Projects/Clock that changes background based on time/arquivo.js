@@ -15,13 +15,13 @@ function changeBackgroundBasedOnTime(hours) {
     const backgroundElement = document.getElementById('background-image');
     
     if (hours >= 6 && hours < 12) {
-        // Manhã (6h às 12h)
-        backgroundElement.style.backgroundImage = "url('images/LondonDay.jpg')"; // Substitua pelo caminho correto
+        
+        backgroundElement.style.backgroundImage = "url('images/LondonDay.jpg')"; 
     } else if (hours >= 12 && hours < 18) {
-        // Tarde (12h às 18h)
-        backgroundElement.style.backgroundImage = "url('images/LondonNoon.jpg')"; // Substitua pelo caminho correto
+        
+        backgroundElement.style.backgroundImage = "url('images/LondonNoon.jpg')"; 
     } else {
-        // Noite (18h às 6h)
-        backgroundElement.style.backgroundImage = "url('images/LondonNight.jpg')"; // Substitua pelo caminho correto
+        
+        backgroundElement.style.backgroundImage = "url('images/LondonNight.jpg')"; 
     }
 }
